@@ -1,6 +1,7 @@
 import datetime
 from django.db import models
 
+
 """ Create your models here.
 
 #### Car Make model ####
@@ -10,6 +11,7 @@ from django.db import models
  - Description
  - Any other fields you would like to include in car make model
  - __str__ method to print a car make object """
+
 
 class CarMake(models.Model):
 
